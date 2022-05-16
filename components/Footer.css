@@ -1,0 +1,51 @@
+.footer {
+    display: flex;
+    margin-top: 12px;
+    font-size: 14px;
+    
+}
+.todo-count {
+    font-family: sans-serif;
+    color: #8a8a8a;
+    line-height: 21px;
+}
+.filters {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content:center;
+    margin-left: 24px;
+}
+.filters li {
+    list-style: none;
+}
+.filters li a{
+    text-decoration: none;
+    color: #8a8a8a;
+    font-family: sans-serif;
+    padding: 3px 6px;
+    border-radius: 3px;
+    margin: 0 4px;
+    border: 1px solid transparent;
+}
+.selected {
+    border: 1px solid rgb(124, 124, 124) !important;
+    color: black !important;
+}
+.clear-completed {
+    background: none;
+    border: none;
+    height: 21px;
+    cursor: pointer;
+    border-radius: 6px;
+    font-size: 14px;
+    color: #8a8a8a;
+    visibility: hidden;
+}
+.show {
+    visibility: unset;
+}
+.clear-completed:hover {
+    background-color: #c1c1c1;
+    color: black;
+}
